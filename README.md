@@ -11,7 +11,7 @@ This repository contains data and executable scripts to reproduce the figures an
 
 available at bioRxiv 2022.11.04.514366; doi: https://doi.org/10.1101/2022.11.04.514366
 
-RNA–seq, epitope and TCR data that support the findings of this study have been deposited in the Gene Expression Omnibus (GEO) under accession codes GSE252608 and GSE252455.  Highly multiplexed immunofluorescence images will be available in the BioStudies database (https://www.ebi.ac.uk/biostudies/) under accession number S-BIAD565 upon final publication. 
+RNA–seq, epitope and TCR data that support the findings of this study have been deposited in the European Genome-Phenome Archive (https://ega-archive.org/studies) under accession number EGAD50000000497.  Highly multiplexed immunofluorescence images will be available in the BioStudies database (https://www.ebi.ac.uk/biostudies/) under accession number S-BIAD565 upon final publication. 
 Additional data are provided in `data` as .csv, .rds or .RData files. 
 Among the Rmarkdown files contained in `analysis/`, only `MapTcells_5scRNA.Rmd` and `NeighborhoodAnalysis.Rmd` is absolutely necessary to run. All other Rmarkdown documents contained in `analysis/` allow to reproduce files contained in `output/`. The object `Tcells_Integrated.rds` can either be downloaded from HeiData database (see above) or reproduced using `IntegrateTcells.Rmd`. Additional instructions can be found in `R/ReadData.R`
 
